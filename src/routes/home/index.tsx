@@ -6,7 +6,7 @@ import { getData } from "../../utils/api";
 
 function AuthModal() {
   return (
-    <div className="p-4 border max-w-96 rounded absolute h-[500px] absolute z-10 top-0  bg-white">
+    <div className="p-4 border max-w-96 rounded  h-[500px] absolute z-10 inset-0 m-auto  bg-white">
 
     <div className="text-center relative">
      <div className="absolute right-1">X</div>
@@ -72,7 +72,7 @@ export default function Home() {
 
   
   return (
-    <div className="relative">
+    <div className="relative bg-image">
    
       <div>
         
@@ -80,15 +80,15 @@ export default function Home() {
 
        
 
-        <main className="flex gap-12 flex-col items-center h-screen justify-center border border-red-600">
-          <h1 className="text-5xl font-bold">Swipe Right</h1>
+        <main className="flex gap-12 flex-col items-center h-screen justify-center">
+          <h1 className="text-5xl font-bold text-white">Swipe Right</h1>
 
-          <button className="text-white font-bold rounded-3xl border bg-red-600 px-4 py-1">Create Account</button>
+          <button className="text-white font-bold rounded-3xl  bg-red-600 px-4 py-1">Create Account</button>
         </main>
 
 
 
-         {true && <AuthModal />}
+         {false && <AuthModal />}
       </div>
     </div>
   );

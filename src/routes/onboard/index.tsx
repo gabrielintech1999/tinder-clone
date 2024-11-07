@@ -1,8 +1,8 @@
 export default function Onboard() {
   return (
-    <div>
-      <h1 className="uppercase text-center font-bold pt-3">Create Account</h1>
-      <form method="post" className=" max-w-[1000px] p-4 border m-auto ">
+    <div style={{marginTop: "62px", paddingTop: "30px", borderTop: "1px solid #9CA3AF"}}>
+      <h1 className="uppercase text-center font-bold pt-3 text-black">Create Account</h1>
+      <form method="post" className=" max-w-[1000px] p-4  m-auto ">
         <div className="flex justify-center gap-10 ">
           <div className="flex flex-col gap-4">
             <label htmlFor="firstName" className="flex flex-col gap-2">
